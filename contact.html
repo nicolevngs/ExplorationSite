@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon1.png"/>
+    <title>Contact</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161094449-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-161094449-1');
+    </script>
+</head>
+<body>
+<a class = "skip" href="#skip">Skip to Main Content</a>
+<header>
+    <div class="header-container">
+        <img src="images/nikkitriki-main.png" ALT="nikkitrikiLogo" class="responsive-logo-home" id="mainlogo">
+    </div>
+    <nav>
+        <ul class="menu-main-navigation">
+            <li class="nav-element"> <a href="index.html">HOME</a></li>
+            <li class="nav-element"> <a href="about.html">ABOUT</a></li>
+            <li class="nav-element"> <a href="chronicle.html">CHRONICLES</a></li>
+            <li class="nav-element"> <a href="crew.html">CREW</a></li>
+            <li class="nav-element" id="current"> <a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+<main id="skip">
+    <h1 class="contactus">Reach out! We're friendly </h1>
+    <h2 class="contactus-low">(most of the time)</h2>
+
+    <div class="container-contact">
+        <form id="contact" method="post">
+            <h3>Drop us a line!</h3>
+            <fieldset>
+                <label for="Name">Your name</label>
+                <input id="Name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <label for="Email">Your Email Address</label>
+                <input id="Email" placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <label for="Phone">Your Phone Number (we wont really call)</label>
+                <input id="Phone" placeholder="Your Phone Number (optional. We won't really call you)" type="tel" tabindex="3" required>
+            </fieldset>
+
+            <fieldset>
+                        <label class="selection" for="attn">ATTN to:</label>
+                        <select id="attn">
+                            <option value="nicole">Nicole</option>
+                            <option value="nikkitriki">nikkitriki</option>
+                        </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="textarea"> Type your message here...</label>
+                <textarea id="textarea" placeholder="Type your message here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+
+        </form>
+    </div>
+
+    <div class="wrapper">
+        <div class="clip-text clip-text_one">Huge <br>thanks!</div>
+        </div>
+
+
+</main>
+
+<footer>
+    <div class="copyright">
+        <p>The Nikkitriki page <br/>
+            &copy; Nicole Valdespino Nogues 2020</p>
+    </div>
+</footer>
+</body>
+</html>
